@@ -1,0 +1,11 @@
+
+^squid:S001125"FDefine and throw a dedicated exception instead of using a generic one.(‡¢Éš
+csquid:S00112-"FDefine and throw a dedicated exception instead of using a generic one.(× Ø‚ıÿÿÿÿ
+^squid:S00112I"FDefine and throw a dedicated exception instead of using a generic one.(¡Õ´É
+^squid:S001123"FDefine and throw a dedicated exception instead of using a generic one.(ÉòÕ–
+^squid:S00112$"FDefine and throw a dedicated exception instead of using a generic one.(‡¢Éš
+=squid:S1168["&Return an empty array instead of null.(¥¹ï
+8squid:S1643p"Use a StringBuilder instead.(³ÿ†‚ûÿÿÿÿ
+psquid:S3008"TRename this field "HEX_CHARS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ÷áòøÿÿÿÿ
+=squid:S1168]"&Return an empty array instead of null.(¥¹ï
+csquid:S00112""FDefine and throw a dedicated exception instead of using a generic one.(Ó¥«÷şÿÿÿÿ

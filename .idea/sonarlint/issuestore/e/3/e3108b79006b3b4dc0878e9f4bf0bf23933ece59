@@ -1,0 +1,7 @@
+
+‚squid:S1450"_Remove the "simpleDateFormat" field and declare it as a local variable in the relevant methods.(¨Â²×øÿÿÿÿ8Ø‰¢Š¡-
+xsquid:S1450"ZRemove the "currentDate" field and declare it as a local variable in the relevant methods.(ÌÂÅ‘8Ø‰¢Š¡-
+isquid:CommentedOutCodeLinen"<This block of commented-out lines of code should be removed.(²™¤Ó8Ø‰¢Š¡-
+hsquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(¡Ó˜8Ø‰¢Š¡-
+zsquid:S1192X"WDefine a constant instead of duplicating this literal "Registering Authority:" 4 times.(¼òÅÎøÿÿÿÿ8Ø‰¢Š¡-
+Xsquid:S1141J"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ø‰¢Š¡-

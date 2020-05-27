@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+def BaseURL = '"' + BaseURL + '"'
+def GET_VEHICLE_INFO = '"' + GET_VEHICLE_INFO + '"'
+def GET_AD_DETAILS= '"' + GET_AD_DETAILS + '"'
+def GET_IV= '"' + GET_IV + '"'
+def GET_SECRET_KEY= '"' + GET_SECRET_KEY + '"'
+def STRING = 'String'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdk
+    flavorDimensions "default"
+    defaultConfig {
+        applicationId "com.niketit.vehicleinfo"
+        minSdkVersion rootProject.ext.minSdk
+        targetSdkVersion rootProject.ext.targetSdk
+        versionCode 2
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        each { type ->
+            type.buildConfigField STRING, "BaseURL", BaseURL
+            type.buildConfigField STRING, "GET_VEHICLE_INFO", GET_VEHICLE_INFO
+            type.buildConfigField STRING, "GET_AD_DETAILS", GET_AD_DETAILS
+            type.buildConfigField STRING, "GET_IV", GET_IV
+            type.buildConfigField STRING, "GET_SECRET_KEY", GET_SECRET_KEY
+        }
+    }
+    productFlavors {
+        RELEASE {
+            buildConfigField 'String', 'BASE_URL', BaseURL
+        }
+
+        DEVELOPMENT {
+            buildConfigField 'String', 'BASE_URL', BaseURL
+        }
+    }
+    buildTypes {
+        release {
+            debuggable true
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.appcompat:appcompat:$rootProject.ext.androidxCompatVersion"
+    implementation "com.android.support:design:$rootProject.ext.androidxCompatVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.ext.androidxCompatVersion"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.google.firebase:firebase-core:17.4.2'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //for FB ads and google ads
+    implementation 'com.facebook.android:audience-network-sdk:5.8.0'
+    implementation 'com.google.android.gms:play-services-ads:19.1.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

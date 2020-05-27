@@ -1,0 +1,209 @@
+{
+  "project_info": {
+    "project_number": "607985645086",
+    "firebase_url": "https://my-project-2b46c.firebaseio.com",
+    "project_id": "my-project-2b46c",
+    "storage_bucket": "my-project-2b46c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607985645086:android:3b1feadfd1e9b4a6",
+        "android_client_info": {
+          "package_name": "com.current.quizfall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvy_20fz2VmH_TiOi2HCVbx96jVW6WTRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607985645086:android:2852f1a8c558b841",
+        "android_client_info": {
+          "package_name": "com.cwa.status_video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607985645086-b4q9u2ursernli28abqrbms75vsp1j7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cwa.status_video",
+            "certificate_hash": "7a1b1b13e9c0d2b5d450159aa71b03890da4c5ac"
+          }
+        },
+        {
+          "client_id": "607985645086-jihe43015m2oqndk64s7n8f9gsre2dd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cwa.status_video",
+            "certificate_hash": "497abc8413b5551c7d373d3f02a16fbb2ecd8157"
+          }
+        },
+        {
+          "client_id": "607985645086-7k920nsiifhl6vc13rg5o85lf5dnh0nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cwa.status_video",
+            "certificate_hash": "906d62f23769d36c33198034fcdd260940158847"
+          }
+        },
+        {
+          "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvy_20fz2VmH_TiOi2HCVbx96jVW6WTRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607985645086:android:aca236b2816ccf41",
+        "android_client_info": {
+          "package_name": "com.cwa.story"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvy_20fz2VmH_TiOi2HCVbx96jVW6WTRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607985645086:android:e4a24583c25fab36",
+        "android_client_info": {
+          "package_name": "com.mpcwa.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvy_20fz2VmH_TiOi2HCVbx96jVW6WTRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607985645086:android:f8b09bf0c42c46e7",
+        "android_client_info": {
+          "package_name": "com.niketit.vehicleinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvy_20fz2VmH_TiOi2HCVbx96jVW6WTRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607985645086:android:2c7017dc3feb5082",
+        "android_client_info": {
+          "package_name": "com.rwrd.vstatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvy_20fz2VmH_TiOi2HCVbx96jVW6WTRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607985645086-9hncpn4uafj9stjq8l6nm6847hrtib0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

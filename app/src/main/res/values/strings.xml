@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Vehicle Details</string>
+    <string name="vehicle_info">Vehicle Info</string>
+    <string name="india_s_favourite_rto_app">India\'s favourite RTO App</string>
+    <string name="enter_vehicle_number">Enter Vehicle number</string>
+    <string name="please_enter_number">Please enter Vehicle number!</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app">Share App</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_information">Share VehicleInformation!</string>
+    <string name="not_valid_number">Vehicle number not Valid! Check it again</string>
+    <string name="terms_and_conditions">By using this app,you agree to the <u><b>terms and conditions.</b></u></string>
+    <string name="check_internet">Please Check your Internet connection!</string>
+    <string name="history_not_found">Search history not found!</string>
+    <string name="no_result_found_issues">\u0020The details of the vehicle couldn\'t found.It maybe due to the one of following reasons: \n\n
+
+        "\u2022" The vehicle,s information is not updated by the RTO office to the online RTO database yet.\n\n
+
+        "\u2022" Recently bought/sold/transferred vehicles might take some time to get updated,check after few days.\n\n
+
+        "\u2022" Or this vehicle number isn\'t registered yet.\n\n
+
+        "\u2022" Try searching other vehicle numbers.\n\n
+
+    </string>
+    <string name="contact_us">Contact Us</string>
+    <string name="search_other">Search other</string>
+    <string name="contact_no">123456789</string>
+    <string name="rto_app_alert">RTO App Alert!</string>
+    <string name="please_update_your_app_first">Please update your app first!</string>
+    <string name="app_req_update">App need to be updated!</string>
+    <string name="testdevice_fb">77eb3f1e-fd68-4063-b600-09213ee551eb</string>
+    <string name="not_showing_the_correct_information_we_ll_help_you">Not Showing the correct information? We\'ll help you.</string>
+    <string name="privacy_policy_url">http://bhadeinfotech.in/@RTO/privacypolicy.php</string>
+    <string name="follow_us_url">https://fb.me/</string>
+</resources>

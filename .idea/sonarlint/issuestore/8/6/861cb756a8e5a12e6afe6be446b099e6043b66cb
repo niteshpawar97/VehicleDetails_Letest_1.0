@@ -1,0 +1,5 @@
+
+bsquid:S3027<"FPut single-quotes around '@' to use the faster "indexOf(char)" method.(òŠ³øşÿÿÿÿ
+fsquid:S3027="JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(ªÜ¡óùÿÿÿÿ
+Xsquid:UnusedPrivateMethod3"3Remove this unused private "clearBackStack" method.(Ïë–Î
+Xsquid:S1126M"AReplace this if-then-else statement by a single return statement.(¾ûŸ

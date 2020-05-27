@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+ext {
+    // SDK & build tools versions
+    minSdk = 19
+    targetSdk = 28
+    compileSdk = 28
+    buildTools = '27.0.3'
+
+    // Dependencies
+    supportLibraryVersion = '1.0.0-beta01'
+    androidxCompatVersion = '1.0.2'
+}
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'io.fabric.tools:gradle:1.27.0'
+        classpath 'com.google.gms:google-services:4.2.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,9 @@
+
+¥squid:S1186˜"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Í‡ú‡ıÿÿÿÿ8­ŸŠ¡-
+isquid:CommentedOutCodeLinem"<This block of commented-out lines of code should be removed.(¨²°ü8­ŸŠ¡-
+osquid:S1301¦"KReplace this "switch" statement by "if" statements to increase readability.(Ò“ÿšùÿÿÿÿ8­ŸŠ¡-
+¥squid:S1186Š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô‚ìíıÿÿÿÿ8­ŸŠ¡-
+]"squid:SwitchLastCaseIsDefaultCheck¦""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ8­ŸŠ¡-
+¥squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×®‡¬ùÿÿÿÿ8­ŸŠ¡-
+ squid:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×é­¨8­ŸŠ¡-
+ squid:S1186“"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÿ“ë8­ŸŠ¡-

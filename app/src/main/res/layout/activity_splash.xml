@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/fav_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifty_dp"
+        android:gravity="center"
+        android:text="@string/india_s_favourite_rto_app"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/car_splash" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/vehicle_info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/thirty_dp"
+            android:gravity="center"
+            android:text="@string/vehicle_info"
+            android:textSize="@dimen/size_24"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <com.niketit.vehicleinfo.utils.progressanimation.LoadingDots
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            app:LoadingDots_auto_play="true"
+            android:layout_marginTop="@dimen/thirty_dp"
+            app:LoadingDots_dots_color="@color/white"
+            app:LoadingDots_dots_count="4"
+            app:LoadingDots_dots_size="1dp"
+            app:LoadingDots_dots_space="1dp"
+            app:LoadingDots_jump_duration="200"
+            app:LoadingDots_jump_height="4dp"
+            app:LoadingDots_loop_duration="800"
+            app:LoadingDots_loop_start_delay="100"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
